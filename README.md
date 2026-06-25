@@ -10,11 +10,29 @@ View your app in AI Studio: https://ai.studio/apps/98287636-a79d-475a-ba3b-194db
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+**Prerequisites:** Node.js 20+ and [pnpm](https://pnpm.io/) 10+
 
+pnpm を入れていない場合は、Node 同梱の Corepack で有効化できます（`package.json` の `packageManager` で版を固定済み）:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+corepack enable
+```
+
+1. 依存関係をインストール:
+   ```bash
+   pnpm install
+   ```
+2. `.env.local` の `GEMINI_API_KEY` に、ご自身の Gemini API キーを設定します（[Google AI Studio](https://aistudio.google.com/apikey) で取得）。`.env.local` はリポジトリに含まれません。
+3. 開発サーバーを起動:
+   ```bash
+   pnpm dev
+   ```
+   http://localhost:3000 で開きます。
+
+### その他のコマンド
+
+| コマンド | 説明 |
+| --- | --- |
+| `pnpm build` | 本番ビルド |
+| `pnpm start` | 本番ビルドを起動（事前に `pnpm build`） |
+| `pnpm lint` | ESLint を実行 |
