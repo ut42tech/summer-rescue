@@ -1,0 +1,6 @@
+{
+  "name": "夏休みのダラダラ防止ツール",
+  "description": "ぽっかり空いた時間を有意義に。AIがあなたにぴったりのアクションプランを提案し、Googleカレンダーに登録します。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
