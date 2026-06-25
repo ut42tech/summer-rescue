@@ -16,8 +16,6 @@
 
 </div>
 
-<img width="1006" height="586" alt="Image" src="https://github.com/user-attachments/assets/1a2cd0c0-7ec9-4141-89f5-28fc47e6c43c" />
-
 <img width="906" height="903" alt="Image" src="https://github.com/user-attachments/assets/dc4917c0-fd69-49b2-b2ee-11063a847938" />
 
 ---
@@ -48,6 +46,8 @@
 3. **「プランを生成する 🚀」** を押すと、AI がおすすめプランを 1 つ提案
 4. 内容を確認し、よければ **「カレンダーに登録 ✅」**／いまいちなら **「別の案を見る 🔄」**
 5. 予定の時間になったら動く 👉 終わったらご褒美を解禁 🍦
+
+<img width="2064" height="1884" alt="Image" src="https://github.com/user-attachments/assets/b41d1344-ffe9-4597-af14-6d9c07f33131" />
 
 ## 🏗️ アーキテクチャ
 
